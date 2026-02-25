@@ -97,5 +97,15 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Golos Text", sans-serif;
+    background: #0e1621;
+    color: #fff;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    overflow: hidden;
   }
 }
